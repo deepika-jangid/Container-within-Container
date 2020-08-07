@@ -17,7 +17,7 @@
   
   ![](Images/Dockerfile.png)
   
-  This will create your own customize jenkins image having docker configured in it or you can pull my jenkins image from https://hub.docker.com/u/deepika1999 <a         href="https://hub.docker.com/u/deepika1999">My Docker Hub Account</a>.
+  This will create your own customize jenkins image having docker configured in it or you can pull my jenkins image from <a href="https://hub.docker.com/u/deepika1999">My Docker Hub Account</a>.
 
 
   
