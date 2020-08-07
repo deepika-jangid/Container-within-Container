@@ -7,6 +7,7 @@
 3. Create a job chain of job1, job2 and job3 using a build pipeline plugin in jenkins.  
 4. <b>Job1</b> : Pull  the Github repo automatically when some developers push repo to Github.
 5. <b>Job2</b> : By looking at the code or program file, Jenkins should automatically start the respective language interpreter install image container to deploy code ( eg. If        code is of  HTML, then Jenkins should start the container that has HTML already installed ).
+6. <b>Job3</b> : Test your app if it is working or not.
 
 
 
