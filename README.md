@@ -17,7 +17,7 @@
   b
   ![](Images/Dockerfile.png)
  
-  After writing the command, for building the image usimg dockerfile you need to write the following command-
+  After writing the command, for building the image using dockerfile you need to write the following command-
   
   <code><b>docker build -t jenkins-docker-os:v1.0 /ws</b></code>(dir path)
   
