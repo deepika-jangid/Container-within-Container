@@ -15,6 +15,8 @@
 * Create a file must be named as 'Dockerfile' in that folder/dir.
 * Open the Dockerfile file and write the following commands in it:-
   
+  ![](Images/Dockerfile.png)
+
 
   
 
