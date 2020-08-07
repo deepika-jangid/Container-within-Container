@@ -16,6 +16,8 @@
 * Open the Dockerfile file and write the following commands in it:-
   
   ![](Images/Dockerfile.png)
+  
+  This will create your own customize jenkins image having docker configured in it.
 
 
   
