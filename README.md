@@ -8,6 +8,10 @@
 4. <b>Job1</b> : Pull  the Github repo automatically when some developers push repo to Github.
 5. <b>Job2</b> : By looking at the code or program file, Jenkins should automatically start the respective language interpreter install image container to deploy code ( eg. If        code is of  HTML, then Jenkins should start the container that has HTML already installed ).
 6. <b>Job3</b> : Test your app if it is working or not.
+7. If not working, then send email to developer with error messages.
+
+# How to create Jenkins Image using DockerFile?
+  
 
 
 
