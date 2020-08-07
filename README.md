@@ -11,6 +11,11 @@
 7. If not working, then send email to developer with error messages.
 
 # How to create Jenkins Image using DockerFile?
+* Create a folder/dir with any name you want say '/ws' on your system. 
+* Create a file must be named as 'Dockerfile' in that folder/dir.
+* Open the Dockerfile file and write the following commands in it:-
+  
+
   
 
 
