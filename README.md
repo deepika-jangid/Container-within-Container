@@ -19,7 +19,7 @@
  
   After writing the command, for building the image usimg dockerfile you need to write the following command-
   
-  <code>b><docker build -t jenkins-docker-os:v1.0 /ws</b></code>(dir path)
+  <code><b><docker build -t jenkins-docker-os:v1.0 /ws</b></code>(dir path)
   
   This will create your own customize jenkins image having docker configured in it or you can pull my jenkins image from <a href="https://hub.docker.com/u/deepika1999">My Docker Hub Account</a>.
 
