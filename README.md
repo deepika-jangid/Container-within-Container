@@ -14,7 +14,7 @@
 * Create a folder/dir with any name you want say '/ws' on your system. 
 * Create a file must be named as 'Dockerfile' in that folder/dir.
 * Open the Dockerfile file and write the following commands in it:-
-  b
+
   ![](Images/Dockerfile.png)
  
   After writing the command, for building the image using dockerfile you need to write the following command-
