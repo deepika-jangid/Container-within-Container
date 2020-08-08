@@ -19,7 +19,7 @@
  
   After writing the command, for building the image using dockerfile you need to write the following command-
   
-  <code><b>docker build -t jenkins-docker-os:v1.0 /ws(dir path)</b></code>
+  <code><b>docker build -t jenkins-docker-os:v1.0 /ws (dir path)</b></code>
   
   This will create your own customize jenkins image having docker configured in it or you can pull my jenkins image from <a href="https://hub.docker.com/r/deepika1999/jenkins-docker-os">My Docker Hub Account</a>.
 
