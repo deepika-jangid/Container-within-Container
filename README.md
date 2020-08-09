@@ -38,11 +38,11 @@
   
    After login, create 3 jobs using build pipeline plugin in Jenkins.
   
-* <b>JOB1-GITHUB PULL</b>
+* <b>JOB1-GITHUB PULL:-</b>
    When some Dev commits the code, through triggers it will automatically push to Github and trigger the Job1 in Jenkins which will go to Github repo and downloads all the          code from there and copy the data to some folder. For copying, we are making some folder so write the below cmd in the execute shell of your jenkins Job 1.
      
-  <code>sudo mkdir /c-in-c</code>
-  <code>sudo cp -rvf * /c-in-c</code>
+  <br><code>sudo mkdir /c-in-c</code>
+  <br><code>sudo cp -rvf * /c-in-c</code>
 * <b>JOB2-LAUNCH CONTAINER</b>
 * <b>JOB3-TESTING</b>  
 
