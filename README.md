@@ -76,8 +76,7 @@
 
 # Final Output
  
-  After running all the jobs with success, type in your browser as-
-  <br><code>YOUR_IP:4321/Website/index.html</code>
+  After running all the jobs with success, type in your browser as-    <code>YOUR_IP:4321/Website/index.html</code>
   <br>and you will see the output as below picture.
   
  ![](Images/HTML_Website.png)
