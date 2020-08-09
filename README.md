@@ -72,7 +72,11 @@
  
 # Build Pipeline View 
 
-![](Images/build_pipeline_view.png)
+ ![](Images/build_pipeline_view.png)
+
+# Final Output
+ 
+ ![](Images/HTML_Website.png)
 
 
 
