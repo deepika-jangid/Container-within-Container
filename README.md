@@ -1,5 +1,5 @@
 # Container-within-Container
-  In this project, I have achieved containerization-within-container. Yes, you read it right, <b>Containerization-within-container</b>. Now you are wondering that isn't it           possible to do so ? So, Yes dear it is possible to do and here I will teach you the step-by-step procedure of how I build this interesting project. 
+  In this project, I have achieved containerization-within-container. Yes, you read it right, <b>Containerization-within-container</b>. Now you are wondering that isn't it         possible to do so ? So, Yes dear it is possible to do and here I will teach you the step-by-step procedure of how I build this interesting project. 
   
 # Steps we will follow to accomplish this task are as follows-
 1. First, we will create a Jenkins image on our own using Dockerfile.
@@ -22,7 +22,11 @@
   <code><b>docker build -t jenkins-docker-os:v1.0 /ws (dir path)</b></code>
   
   This will create your own customize jenkins image having docker configured in it or you can pull my jenkins image from <a href="https://hub.docker.com/r/deepika1999/jenkins-docker-os">My Docker Hub Account</a>.
-
+  
+# How to launch the image?
+  After pulling or building the image, for using it we need to launch the image. For launching the os, write the following command-
+  
+  <code><b>docker run -dit -p 1234:8080 -v /:/host -v /var/run/docker.sock:/var/run/docker.sock --name c-in-c deepika1999/jenkins-docker-os:v1.0</b></code>
 
   
 
