@@ -49,15 +49,16 @@
 <br><code>then</code> 
     <br><code>if sudo docker ps | grep html-server</code>
     <br><code>then</code> 
-        sudo docker stop html-server
-        sudo docker rm -f html-server
-        sudo docker run --privileged -d -it -p 4321:80 -v /c-in-c:/var/www/html --name html-server vimal13/apache-webserver-php:v1 
-    else
-        sudo docker run --privileged -d -it -p 4321:80 -v /c-in-c:/var/www/html --name html-server vimal13/apache-webserver-php:v1 
-    fi
-else
-    echo "Code out of the context"
-fi    
+        <br><code>sudo docker stop html-server</code>
+        <br><code>sudo docker rm -f html-server</code>
+        <br><code>sudo docker run --privileged -d -it -p 4321:80 -v /c-in-c:/var/www/html --name html-server vimal13/apache-webserver-php:v1</code> 
+    <br><code>else</code>
+        <br><code>sudo docker run --privileged -d -it -p 4321:80 -v /c-in-c:/var/www/html --name html-server vimal13/apache-webserver-php:v1</code> 
+    <br><code>fi</code>
+<br><code>else</code>
+    <br><code>echo "Code out of the context"</code>
+<br><code>fi</code>
+
 * <b>JOB3-TESTING</b>  
 
 
