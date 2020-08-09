@@ -32,9 +32,13 @@
   
   Go to your browser and type-
    
-  <code>YourIP:1234</code> 
+  <code><b>YourIP:1234</b></code> 
 
+  This will take you to the page of jenkins unlock, unlock your jenkins and then login to the Jenkins.  
   
+  After login, create 3 jobs using build pipeline plugin in Jenkins.
+  
+<b>* JOB1-GITHUB PULL</b>
 
 
 
