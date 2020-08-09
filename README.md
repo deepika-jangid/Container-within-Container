@@ -38,9 +38,9 @@
   
   After login, create 3 jobs using build pipeline plugin in Jenkins.
   
-*<b>JOB1-GITHUB PULL</b>
-*<b>JOB2-LAUNCH CONTAINER<b>
-*<b>JOB3-TESTING<b>  
+*<br><b>JOB1-GITHUB PULL</b>
+*<br><b>JOB2-LAUNCH CONTAINER<b>
+*<br><b>JOB3-TESTING<b>  
 
 
 
