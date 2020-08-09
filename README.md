@@ -29,6 +29,10 @@
   <code><b>docker run -dit -p 1234:8080 -v /:/host -v /var/run/docker.sock:/var/run/docker.sock --name c-in-c deepika1999/jenkins-docker-os:v1.0</b></code>
   
   This will launch your os and you can check it by typing  <code><b>docker ps</b></code>
+  
+  Go to your browser and type-
+   
+  <code>YourIP:1234</code> 
 
   
 
