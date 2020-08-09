@@ -60,6 +60,7 @@
 <br><code>fi</code>
 
 * <b>JOB3-TESTING:-</b>
+   In the execute shell of Job 3, write the following script-
    <br><code>export status=$(curl -o /dev/null -s -w "%{http_code}" YOUR_IP:4321/Website/)</code>
 <br><code>if [ status==200 ]</code>
 <br><code>then</code> 
