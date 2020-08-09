@@ -72,6 +72,8 @@
  
 # Build Pipeline View 
 
+![](Images/build_pipeline_view.png)
+
 
 
   
