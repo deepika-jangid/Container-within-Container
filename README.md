@@ -59,7 +59,15 @@
     <br><code>echo "Code out of the context"</code>
 <br><code>fi</code>
 
-* <b>JOB3-TESTING</b>  
+* <b>JOB3-TESTING:-</b>
+   <br><code>export status=$(curl -o /dev/null -s -w "%{http_code}" YOUR_IP:4321/Website/)</code>
+<br><code>if [ status==200 ]</code>
+<br><code>then</code> 
+   <br><code>exit 0</code>
+<br><code>else</code>
+   <br><code>exit 1</code>
+<br><code>fi</code>
+ 
 
 
 
