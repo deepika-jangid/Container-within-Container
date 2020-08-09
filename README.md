@@ -40,10 +40,24 @@
   
 * <b>JOB1-GITHUB PULL:-</b>
    When some Dev commits the code, through triggers it will automatically push to Github and trigger the Job1 in Jenkins which will go to Github repo and downloads all the          code from there and copy the data to some folder. For copying, we are making some folder so write the below cmd in the execute shell of your jenkins Job 1.
-     
   <br><code>sudo mkdir /c-in-c</code>
   <br><code>sudo cp -rvf * /c-in-c</code>
-* <b>JOB2-LAUNCH CONTAINER</b>
+
+* <b>JOB2-LAUNCH CONTAINER:-</b>
+   In the execute shell of Job 2, Write the following script-
+   <br><code>if sudo cat /c-in-c/Website/index.html | grep html</code>
+<br><code>then</code> 
+    <br><code>if sudo docker ps | grep html-server</code>
+    <br><code>then</code> 
+        sudo docker stop html-server
+        sudo docker rm -f html-server
+        sudo docker run --privileged -d -it -p 4321:80 -v /c-in-c:/var/www/html --name html-server vimal13/apache-webserver-php:v1 
+    else
+        sudo docker run --privileged -d -it -p 4321:80 -v /c-in-c:/var/www/html --name html-server vimal13/apache-webserver-php:v1 
+    fi
+else
+    echo "Code out of the context"
+fi    
 * <b>JOB3-TESTING</b>  
 
 
